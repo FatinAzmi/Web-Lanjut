@@ -1,0 +1,15 @@
+[24-Sep-2026 02:44:14 UTC] PHP Fatal error:  Uncaught RuntimeException: Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 8.4.1". You are running 8.3.33. in C:\laravel\backend-api\vendor\composer\platform_check.php:22
+Stack trace:
+#0 C:\laravel\backend-api\vendor\composer\autoload_real.php(25): require()
+#1 C:\laravel\backend-api\vendor\autoload.php(22): ComposerAutoloaderInitcda2add6397422fb1a2eb5b9207f1575::getLoader()
+#2 C:\laravel\backend-api\artisan(10): require('C:\\laravel\\back...')
+#3 {main}
+  thrown in C:\laravel\backend-api\vendor\composer\platform_check.php on line 22
+[29-Sep-2026 06:49:56 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: C:/laragon/bin/php/php-8.5.11-Win32-vs17-x64/ext\curl (The specified module could not be found), C:/laragon/bin/php/php-8.5.11-Win32-vs17-x64/ext\php_curl.dll (An Application Control policy has blocked this file)) in Unknown on line 0
+[29-Sep-2026 07:43:37 UTC] PHP Fatal error:  Can't use method return value in write context in C:\laravel\backend-api\bootstrap\app.php on line 8
+Stack trace:
+#0 {main}
+[29-Sep-2026 07:50:34 UTC] PHP Fatal error:  Can't use method return value in write context in C:\laravel\backend-api\bootstrap\app.php on line 8
+Stack trace:
+#0 {main}
+[07-Oct-2026 07:16:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'gd' (tried: C:/laragon/bin/php/php-8.5.11-Win32-vs17-x64/ext\gd (The specified module could not be found), C:/laragon/bin/php/php-8.5.11-Win32-vs17-x64/ext\php_gd.dll (An Application Control policy has blocked this file)) in Unknown on line 0

@@ -1,0 +1,40 @@
+|CTAG_1663167284_18455859_4204_0
+cd backend-api
+|d C:\laravel\backend-api
+|hp artisan make:model Product -m
+|d C:\laravel\backend-api
+php artisan make:model Product -m
+|hp artisan migrate
+|hp artisan migrate
+|hp artisan serve
+|d C:\laravel\backend-api
+|hp artisan serve
+|hp artisan migrate
+|d C:\laravel\backend-api
+php artisan migrate
+php artisan route:list
+php artisan tinker
+|hp artisan make:controller AuthController
+php artisan make:controller AuthController
+|hp artisan serve
+|d C:\laravel\backend-api
+php artisan make:middleware CheckRole
+php artisan make:controller UserController
+|php artisan make:controller UserController
+ php artisan make:controller UserController
+php artisan serve
+|d C:\laravel\backend-api
+|it status
+git init
+|it add .
+git commit -m "Initial commit backend-api"
+git branch -M main
+git remote add origin https://github.com/siwiw/backend-api.git
+git push -u origin main
+git status
+git add .
+git commit -m "Add Dockerfile for Render deployment"
+git push
+cd C:\laravel\backend-api
+composer install --no-dev --optimize-autoloader
+php artisan key:generate --show
